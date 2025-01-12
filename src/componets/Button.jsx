@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({label,iconUrl}) => {
   return (
     <Button className="">
-        click me
+        {label}
+
+        <img src={iconUrl} alt="arrow right icon" className="w-5 h-5 ml-2 rounded-full "/>
     </Button>
   )
 }
