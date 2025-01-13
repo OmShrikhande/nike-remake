@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Button = ({label,iconUrl}) => {
+const Button = () => {
   return (
-    <Button className="">
-      
-    </Button>
+    <div>
+      <Text>me</Text>
+    </div>
   )
 }
+
 export default Button
